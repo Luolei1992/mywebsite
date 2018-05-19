@@ -1,0 +1,357 @@
+@import 'base.css';
+.header {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+.header ul {
+  float: right;
+  margin-right: 20px;
+}
+.header ul li {
+  float: left;
+  width: 100px;
+  position: relative;
+  text-align: center;
+}
+.header ul li a {
+  color: #ffffff;
+  display: inline-block;
+}
+.header ul li a img {
+  width: 24px;
+  height: 24px;
+  top: 4px;
+  position: relative;
+}
+.header ul li a span {
+  width: 0;
+  height: 2px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  bottom: 2px;
+  background-color: #fff;
+  transition: all 0.2s linear;
+}
+.header ul li:hover span {
+  width: 100%;
+}
+.sectionOne {
+  background: url(../image/one.png) no-repeat center bottom;
+  color: #fff;
+}
+.sectionOne .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+.sectionOne .center .mine {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.sectionOne .center .name {
+  margin: 20px 0;
+  font-size: 24px;
+}
+.sectionOne .center .name img {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 4px;
+}
+.sectionOne .center .line {
+  width: 350px;
+  height: 2px;
+  background-color: #fff;
+  margin: 15px 0;
+}
+.sectionOne .center ul {
+  padding-left: 80px;
+  text-align: left;
+  margin-top: 20px;
+}
+.sectionOne .center ul li {
+  margin: 10px 0;
+}
+.sectionOne .center ul li img {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 4px;
+}
+.sectionTwo {
+  background: url(../image/two.jpg) no-repeat center bottom;
+}
+.sectionTwo .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: left;
+}
+.sectionTwo .center .title {
+  border-left: 3px solid #B41818;
+  padding: 0 20px;
+  position: relative;
+  color: #B41818;
+  margin-bottom: 40px;
+}
+.sectionTwo .center .title h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+}
+.sectionTwo .center .title p {
+  font-size: 12px;
+}
+.sectionTwo .center .btm {
+  margin-top: 20px;
+}
+.sectionTwo .center .des .textindent {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.sectionTwo .center .des .textindent p {
+  line-height: 26px;
+}
+.sectionTwo .center ul {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.sectionTwo .center ul li h3 {
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.sectionTwo .center ul li p {
+  line-height: 30px;
+}
+.sectionTwo .center ul li img {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+.sectionThree {
+  background: url(../image/three.jpg) no-repeat center bottom;
+}
+.sectionFour {
+  background: url(../image/four.png) no-repeat center bottom;
+}
+.csstransforms .cn-wrapper li a span {
+  transform: rotate(90deg);
+}
+.sectionFour .caroursel {
+  margin: 0 auto;
+}
+.sectionFive {
+  background: url(../image/five.png) no-repeat center bottom;
+}
+.sectionFive .center {
+  box-shadow: 0 0 24px 4px #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 655px;
+  height: 365px;
+}
+.sectionFive .center .staticSize {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 70px;
+  width: 655px;
+  height: 365px;
+  z-index: 10;
+  position: relative;
+}
+.sectionFive .center .leftTop {
+  position: absolute;
+}
+.sectionFive .center .yellow {
+  left: -36px;
+  top: -14px;
+  width: 80px;
+  height: 80px;
+  z-index: 20;
+}
+.sectionFive .center .green {
+  top: -20px;
+  left: 100px;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+}
+.sectionFive .center .orange {
+  right: -25px;
+  width: 60px;
+  height: 60px;
+  z-index: 15;
+  bottom: 44px;
+}
+.sectionFive .center .red {
+  right: 93px;
+  z-index: 15;
+  width: 90px;
+  height: 90px;
+  bottom: -48px;
+}
+.sectionFive .center .blue {
+  left: -50px;
+  top: 78px;
+  z-index: 20;
+  width: 40px;
+  height: 40px;
+}
+.sectionFive .center .prople {
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  z-index: 5;
+  bottom: -26px;
+}
+.sectionFive .center .title {
+  border-left: 3px solid #B41818;
+  padding: 0 20px;
+  position: relative;
+  color: #B41818;
+  margin-bottom: 40px;
+}
+.sectionFive .center .title h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+}
+.sectionFive .center .title p {
+  font-size: 12px;
+}
+.sectionFive .center .btm ul {
+  float: left;
+  margin-right: 50px;
+}
+.sectionFive .center .btm ul li {
+  margin-bottom: 20px;
+}
+.sectionFive .center .btm ul li img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 4px;
+  margin-right: 10px;
+}
+.sectionFive .center .btm ul li p {
+  display: inline-block;
+}
+.sectionFive .center .btm .pic {
+  float: right;
+  padding: 10px;
+}
+.sectionFive .center .btm .pic img {
+  width: 90px;
+  margin-left: 20px;
+  height: 90px;
+}
+.csstransforms .cn-wrapper li.skill5 a span,
+.csstransforms .cn-wrapper li.skill6 a span,
+.csstransforms .cn-wrapper li.skill7 a span {
+  transform: rotate(-90deg) translateX(-1em);
+}
+.csstransforms .cn-wrapper li.skill1 a {
+  background: radial-gradient(transparent 35%, #EF865C 35%);
+}
+.csstransforms .cn-wrapper li.skill2 a {
+  background: radial-gradient(transparent 35%, #50ACE3 35%);
+}
+.csstransforms .cn-wrapper li.skill3 a {
+  background: radial-gradient(transparent 35%, #E3C83A 35%);
+}
+.csstransforms .cn-wrapper li.skill4 a {
+  background: radial-gradient(transparent 35%, #6BA2BA 35%);
+}
+.csstransforms .cn-wrapper li.skill5 a {
+  background: radial-gradient(transparent 35%, #AB8BEF 35%);
+}
+.csstransforms .cn-wrapper li.skill6 a {
+  background: radial-gradient(transparent 35%, #45B7CD 35%);
+}
+.csstransforms .cn-wrapper li.skill7 a {
+  background: radial-gradient(transparent 35%, #5DD7A7 35%);
+}
+.cn-wrapper ul li {
+  position: relative;
+}
+.cn-wrapper ul li a img {
+  position: absolute;
+  left: 164px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.csstransforms .cn-wrapper li a span {
+  text-indent: 2em;
+  font-size: 14px !important;
+}
+.csstransforms .cn-wrapper li.skill5 a span,
+.csstransforms .cn-wrapper li.skill6 a span,
+.csstransforms .cn-wrapper li.skill7 a span {
+  text-indent: 0;
+}
+.csstransforms .opened-nav {
+  transform: scale(1.3);
+}
+.cn-wrapper-circle {
+  width: 140px;
+  height: 140px;
+  margin: 15px auto;
+  border-radius: 50%;
+  background-color: #5dd7a7;
+}
+#cn-button {
+  background-color: rgba(93, 215, 167, 0.6);
+  color: #fff;
+  width: 170px;
+  height: 170px;
+  margin-top: -85px;
+  margin-left: -85px;
+}
+#cn-button p {
+  font-size: 18px;
+  font-weight: normal;
+}
+#cn-button img {
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+}
+.jhp {
+  padding: 5px 0px;
+  text-align: center;
+  font-size: 12px;
+  clear: both;
+  margin: 0px;
+}
+.d_foot_o {
+  text-align: center;
+  margin: 35px 0 10px 0;
+  clear: both;
+}
